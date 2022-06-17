@@ -412,6 +412,8 @@ background-color: #fff;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center -10px;
+margin: 5px;
+
   }
   #client .two{
     background-image: url(./imgs/Untitled\ design\ \(51\).png);
@@ -419,20 +421,50 @@ background-position: center -10px;
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 5px;
   }
   #client .three{
-    background-image: url(./imgs/Photocentric\ Work\ from\ Anywhere\ Blog\ Banner.png);
+    background-image: url(./imgs/newyears.png);
+    
     background-color: #fff;
-    background-size: 200px;
+    background-size: 400px;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 5px;
   }
   #client .four{
-    background-image: url(./imgs/Corporate\ Work\ Blog\ Banner.png);
+    background-image: url(./imgs/Screenshot\ 2022-06-17\ 185650.png);
     background-color: #fff;
-    background-size: 200px;
+    background-size: 400px;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 5px;
+   
+  }
+  #client .five{
+    background-image: url(./imgs/addtocart.png);
+    background-color: #fff;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 5px;
+  }
+  #client .six{
+    background-image: url(./imgs/addressbook.png);
+    background-color: #fff;
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 5px;
+  }
+  #client .seven{
+    background-image: url(./imgs/Math.png);
+    background-color: #fff;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px;
+
   }
 
   .flex-container{

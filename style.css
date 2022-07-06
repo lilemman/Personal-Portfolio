@@ -370,8 +370,139 @@ body {
     border-radius: 25px;
   }
   
+/*Clients*/
+/*projects*/
+h3.title{
+  font-size: 24px;
+  padding-top: 100px;
+  margin: 6px;
+  text-align: center;
   
-  /*Client/Portfolio*/
+}
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project{
+  flex-basis: 325px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+}
+.project h4{
+  font-size: 20px;
+  padding: 12px;
+  margin: 6px;
+  border-top: 5px solid #ddd;
+  border-bottom: 5px solid #ddd;
+}
+
+.project p{
+  padding: 0px 12px;
+}
+.project img{
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.project img:hover{
+  transform: scale(0.95);
+  opacity: 0.5;
+}
+.project button{
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px ;
+  width: 100%;
+  font-size: 12px;
+}
+.project button:hover{
+  background-color: #45a049;
+}
+
+
+  
+  
+  /*Contact*/
+  .contact{padding-top: 90px;
+  }
+  .contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+  }
+  p{
+    text-decoration: none;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .contact .social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    color: #687683;
+    line-height: 1;
+    margin: 0 8px;
+    transition: 0.3s;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #dde1e4;
+  }
+  .contact .social-links a:hover {
+    color: #fff;
+    border-color: #ffb727;
+    background: #ffb727;
+  }
+
+  .form-group{
+    padding-bottom:8px;
+  }
+
+
+  
+  /*Footer*/
+  #footer {
+    background: #e9e8e6;
+    padding: 30px 0;
+    color: #222222;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  
+
+
+
+
+
+
+
+
+  /*Client/Portfolio
  
   
   .company{
@@ -471,64 +602,4 @@ margin: 5px;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  /*Contact*/
-  .contact{padding-top: 90px;
-  }
-  .contact .info-box {
-    color: #444444;
-    text-align: center;
-    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 20px 0 30px 0;
-  }
-  
-  .contact .info-box h3 {
-    font-size: 20px;
-    color: #777777;
-    font-weight: 700;
-    margin: 10px 0;
-  }
-  .contact .info-box p {
-    padding: 0;
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  .contact .social-links {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-  }
-  .contact .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    color: #687683;
-    line-height: 1;
-    margin: 0 8px;
-    transition: 0.3s;
-    padding: 14px;
-    border-radius: 50px;
-    border: 1px solid #dde1e4;
-  }
-  .contact .social-links a:hover {
-    color: #fff;
-    border-color: #ffb727;
-    background: #ffb727;
-  }
-
-  .form-group{
-    padding-bottom:8px;
-  }
-
-
-  
-  /*Footer*/
-  #footer {
-    background: #e9e8e6;
-    padding: 30px 0;
-    color: #222222;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  
+  */
